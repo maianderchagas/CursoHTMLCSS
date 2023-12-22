@@ -36,6 +36,7 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 10vw;
 }
 
 header>p{
@@ -54,12 +55,17 @@ header a:hover, footer a:hover{
 
 section{
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom:5%;
     line-height: 1.5em;
     padding-left: 5%;
     font-family: var(--fonte3);
-    font-size: 4vw;
+    font-size: 3vw;
 
+
+}
+
+section>p{
+    padding-bottom: 5%;
 }
 
 .normal{
@@ -70,12 +76,28 @@ section{
 .imagem{
     background-color: rgb(78, 77, 77);
     color: white;
+    background-size: cover ;
+    box-shadow: inset 3px 3px 15px rgba(0, 0, 0, 0.486) ;
+    background-position: right center;
+    background-attachment: fixed;
 }
 
 .imagem>p{
     display: inline-block;
-    background-color: black;
+    text-shadow: 1px 1px 5px black;
     padding: 3px;
+}
+
+section#img01{
+    background-image: url('..//imagens/background001.jpg');
+    
+    
+}
+
+section#img02{
+    background-image: url('..//imagens/background002.jpg');
+    
+
 }
 
 footer{
