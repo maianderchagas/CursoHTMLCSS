@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alinhamento vertical</title>
+    <style>
+        /*Position RELATIVE ao navegador... ABSOLUTE se refere o posicao do container... ele segue o container*/
+        #container{
+            position: relative;
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+
+        }
+
+        /*LEFT e TOP refere-se a distancia para a esquerda e para o topo do container
+        
+        TRANSLATE muda o posicionamento da ancora do objeto.. por padrao sempre comeca do topo e da esquerda */
+
+        
+        #conteudo{
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            margin: auto;
+            left: 50%;
+            top: 50%;
+            translate: -50% -50%;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
