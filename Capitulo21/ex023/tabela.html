@@ -15,18 +15,20 @@
             border: 1px solid black;   
         }
         
-        tr.linha{
-            background-color: lightgray;
-        }
+
 
         td{
             border: 1px solid black;
+            padding: 5px;
+            vertical-align: top;
         }
 
-        td.dado{
-            background-color: rgb(253, 253, 4);
+        .numero {
+            text-align: right;
+            vertical-align: middle;
         }
 
+        
 
     </style>
 </head>
@@ -46,20 +48,20 @@
             <td>b1</td>
             <td>c1</td>
         </tr>
-        <tr class="linha">
+        <tr>
             <td>a2</td>
             <td>b2</td>
-            <td>c2</td>
+            <td class="numero">c2</td>
         </tr>
         <tr>
             <td>a3</td>
             <td>b3</td>
             <td>c3</td>
         </tr>
-        <tr class="linha">
+        <tr>
             <td>a4</td>
             <td>b4</td>
-            <td class="dado">c4</td>
+            <td>c4</td>
         </tr>
     </table>
 </body>
