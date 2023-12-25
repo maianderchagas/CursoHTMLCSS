@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 4px;
+        }
+
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(78, 78, 78);
+            
+        }
+
+        tbody>tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        thead, tfoot{
+            background-color: rgb(78, 78, 78);
+            color: white;
+        }
+
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMINA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR TD TH
+            TBODY
+                TR TD TH
+            TFOOT
+                TR TD TH
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 354 189</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total habitantes</th>
+                <strong>
+                    <td class="num">000000</td>
+                </strong>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam aliquid consequuntur velit laborum maiores qui ratione id accusamus amet veniam, nostrum, culpa quos nulla vel, quaerat sapiente! Tempore, quam Lorem ipsum dolor sit amet consectetur adipisicing elit. At quo dolor magni maxime, beatae laudantium delectus et pariatur, perspiciatis cumque ea similique necessitatibus sed dicta aliquid quis iste ut assumenda.  Lorem ipsum dolor sit amet corem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam aliquid consequuntur velit laborum maiores qui ratione id accusamus amet veniam, nostrum, culpa quos nulla vel, quaerat sapiente! Tempore, quam Lorem ipsum dolor sit amet consectetur adipisicing elit. At quo dolor magni maxime, beatae laudantium delectus et pariatur, perspiciatis cumque ea similique necessitatibus sed dicta aliquid quis iste ut assumenda.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quam repellat, nulla tempora excepturi illum sapiente magnam exercitationem accusantium! Veritatis accusantium modi ipsum voluptates nihil repellat maxime voluptatum dolorum aut. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto veritatis cum dolores non quos, praesentium porro ad eaque suscipit fugit blanditiis hic, assumenda quas tenetur modi voluptatibus esse eligendi rem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem doloremque aspernatur deserunt perferendis excepturi quisquam quibusdam recusandae repellat dolorem tempore rem molestiae quas numquam unde, possimus ut! Dolore, similique hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui deleniti totam consectetur est ipsam, quas ut minima eum debitis nostrum eos tempora non dignissimos autem incidunt natus repellendus itaque voluptatum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod a porro, ex recusandae soluta reiciendis harum non, facilis eos atque perferendis architecto corrupti, hic veniam ullam. Adipisci inventore sed temporibus.onsectetur adipisicing elit. Quae quam repellat, nulla tempora excepturi illum sapiente magnam exercitationem accusantium! Veritatis accusantium modi ipsum voluptates nihil repellat maxime voluptatum dolorum aut. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto veritatis cum dolores non quos, praesentium porro ad eaque suscipit fugit blanditiis hic, assumenda quas tenetur modi voluptatibus esse eligendi rem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem doloremque aspernatur deserunt perferendis excepturi quisquam quibusdam recusandae repellat dolorem tempore rem molestiae quas numquam unde, possimus ut! Dolore, similique hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui deleniti totam consectetur est ipsam, quas ut minima eum debitis nostrum eos tempora non dignissimos autem incidunt natus repellendus itaque voluptatum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod a porro, ex recusandae soluta reiciendis harum non, facilis eos atque perferendis architecto corrupti, hic veniam ullam. Adipisci inventore sed temporibus.</p>
+   
+</body>
+</html>
